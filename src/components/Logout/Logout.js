@@ -7,7 +7,7 @@ class Logout extends Component {
             <div className="logout_main_container">
                 <div className="logout_button_container">
                     <div className="button_name">
-                        <a href='/auth/logout'>LOGOUT</a>
+                        <a href='http://localhost:3001/auth/logout'>LOGOUT</a>
                     </div>
                 </div>
             </div>

@@ -69,13 +69,14 @@
     .hamburger_container img {
          display: none; 
     }
+    
 }
 
 @media(max-width:900px){ 
     .nav-bar {
         display: none;
     }
-    .header-logo{
-        /*margin-top: 25px*/
+    .header-logo {
+        /* margin-top: 25px; */
     }
 }

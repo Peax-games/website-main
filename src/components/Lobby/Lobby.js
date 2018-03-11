@@ -24,14 +24,13 @@ import Tetris from './GameLibrary/Arcade/tetris/Tetris';
 
 
 //mmo
-import PeaxQuest from './GameLibrary/Multiplayer/peax-quest/Peax-Quest';
+
 
 //mobile
 import Maze2d from './GameLibrary/Mobile/2d-Maze/Maze2D';
 
 //multiplayer
 import Ships from './GameLibrary/Multiplayer/ships/Ship';
-
 
 //platform
 import StarPlatformer from './GameLibrary/Platform/star-platformer/Star-Platformer';
@@ -107,8 +106,6 @@ class Lobby extends Component {
             MonsterCandy();
         } else if (this.props.match.params.game === ':tetris') {
             Tetris();
-        }else if(this.props.match.params.game === ':peaxquest'){
-            PeaxQuest();
         }
 
 
