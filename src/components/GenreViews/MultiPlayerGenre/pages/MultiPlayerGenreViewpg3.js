@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../genreViews.css';
+import '../../genreViews.css';
 
-import comingsoon from '../../../Pictures/comingsoon.png';
+import comingsoon from '../../../../Pictures/comingsoon.png';
 
-export default function BoardGenreView() {
+export default function MultiPlayerGenreViewpg3() {
 
     return (
         <div className="arcade-root">
-        <p className="arcade-genre-header">Board Games Pg. 1</p>
+        <p className="arcade-genre-header">Multiplayer Games Pg. 3</p>
         <div className="genreViewPageLinks">
-            <Link to="/board">&laquo;</Link>
-            <Link className="active" to="/board">1</Link>
-            <Link to="/board/page-2">2</Link>
-            <Link to="/board/page-3">3</Link>
-            <Link to="/board/page-3">&raquo;</Link>
+            <Link to="/multiplayer">&laquo;</Link>
+            <Link to="/multiplayer">1</Link>
+            <Link to="/multiplayer/page-2">2</Link>
+            <Link className="active" to="/multiplayer/page-3">3</Link>
+            <Link to="/multiplayer/page-3">&raquo;</Link>
         </div>
         <div className="gamesArea">
             <a href="#"><div>
@@ -64,11 +64,11 @@ export default function BoardGenreView() {
             </a>
         </div>
         <div className="genreViewPageLinks">
-            <Link to="/board">&laquo;</Link>
-            <Link className="active" to="/board">1</Link>
-            <Link to="/board/page-2">2</Link>
-            <Link to="/board/page-3">3</Link>
-            <Link to="/board/page-3">&raquo;</Link>
+            <Link to="/multiplayer">&laquo;</Link>
+            <Link to="/multiplayer">1</Link>
+            <Link to="/multiplayer/page-2">2</Link>
+            <Link className="active" to="/multiplayer/page-3">3</Link>
+            <Link to="/multiplayer/page-3">&raquo;</Link>
         </div>
         <div className='spacer'></div>
     </div>

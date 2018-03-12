@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../genreViews.css';
+import '../../genreViews.css';
 
-import comingsoon from '../../../Pictures/comingsoon.png';
+import comingsoon from '../../../../Pictures/comingsoon.png';
 
-export default function StrategyGenreView() {
+export default function StrategyGenreViewpg3() {
 
     return (
         <div className="arcade-root">
-            <p className="arcade-genre-header">Strategy Games Pg. 1</p>
+            <p className="arcade-genre-header">Strategy Games Pg. 3</p>
             <div className="genreViewPageLinks">
                 <Link to="/strategy">&laquo;</Link>
-                <Link className="active" to="/strategy">1</Link>
+                <Link to="/strategy">1</Link>
                 <Link to="/strategy/page-2">2</Link>
-                <Link to="/strategy/page-3">3</Link>
+                <Link className="active" to="/strategy/page-3">3</Link>
                 <Link to="/strategy/page-3">&raquo;</Link>
             </div>
             <div className="gamesArea">
@@ -65,9 +65,9 @@ export default function StrategyGenreView() {
             </div>
             <div className="genreViewPageLinks">
                 <Link to="/strategy">&laquo;</Link>
-                <Link className="active" to="/strategy">1</Link>
+                <Link to="/strategy">1</Link>
                 <Link to="/strategy/page-2">2</Link>
-                <Link to="/strategy/page-3">3</Link>
+                <Link className="active" to="/strategy/page-3">3</Link>
                 <Link to="/strategy/page-3">&raquo;</Link>
             </div>
             <div className='spacer'></div>
